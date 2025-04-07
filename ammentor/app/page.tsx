@@ -1,8 +1,7 @@
+"use client";
+
+import Login from "./auth/login";
 
 export default function Home() {
-  return (
-    <h1 className="text-3xl">
-      Hello world!
-    </h1>
-  );
+  return <Login />;
 }
